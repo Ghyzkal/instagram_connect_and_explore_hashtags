@@ -1,19 +1,19 @@
 import requests
 import json
 
-
-
 def getCreds():
     creds = dict()
+    #Specific to the developper
     creds['access_token'] = 'EAAp48PZBZCqr4BAHl9ftBagOrQAz5CSVy8VKuAGlQg719NpcIL9Ap2qzebqvRknPH2Ws0dnjXt0g9OST8p9fDTKYhHhRbAZCMDqIikErAhegAxtonOSMevZCApNJPAifFiji7lkZBlFQzguQ5SNIxm49XjysMidUnVkujJTu8si1z1ZA1lbbm0'
     creds['client_id'] = '2947726245341886'
     creds['client_secret'] = '0adecbb6418d7fd4e0ebdd4520447b17'
+    creds['page_id'] = '106357124428037'
+    creds['instagram_account_id'] = '17841436100657426'
+    #General
     creds['graph_domain'] = 'https://graph.facebook.com/'
     creds['graph_version'] = 'v7.0'
     creds['endpoint_base'] =  creds['graph_domain'] + creds['graph_version'] + '/'
     creds['debug'] = 'no'
-    creds['page_id'] = '106357124428037'
-    creds['instagram_account_id'] = '17841436100657426'
     
     return creds
 
